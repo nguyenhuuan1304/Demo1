@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { View, Text, Keyboard, TextInput, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  Keyboard,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
 
 import styles from "./style";
 
@@ -11,7 +17,7 @@ const Form = (props) => {
       return false;
     }
     props.onAddTask(task);
-    setTask('')
+    setTask("");
     Keyboard.dismiss();
   };
   console.log("s");
@@ -40,8 +46,8 @@ const Form = (props) => {
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={handleAddTask}>
-          <Text style={{fontSize: 20}}>++++</Text>
-
+        <View style={styles.icon}>
+          <Text style={{ fontSize: 20 }}>++++</Text>
         </View>
       </TouchableOpacity>
     </View>
