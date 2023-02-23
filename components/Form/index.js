@@ -27,6 +27,11 @@ const Form = (props) => {
           <Text style={styles.iconAdd}>+</Text>
         </View>
       </TouchableOpacity>
+      <TouchableOpacity onPress={handleAddTask}>
+        <View style={styles.icon}>
+          <Text style={styles.iconAdd}>+</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 };
