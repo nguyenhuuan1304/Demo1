@@ -46,7 +46,7 @@ const Form = (props) => {
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={handleAddTask}>
-        <View style={styles.icon}>
+        <View style={styles.iconaaaaaaa}>
           <Text style={{ fontSize: 20 }}>++++</Text>
         </View>
       </TouchableOpacity>
