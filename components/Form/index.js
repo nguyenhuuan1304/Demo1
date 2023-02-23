@@ -14,6 +14,7 @@ const Form = (props) => {
     setTask('')
     Keyboard.dismiss();
   };
+  console.log("s");
   return (
     <View style={styles.addTask}>
       <TextInput
